@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node index.js",
-    "tsc":"tsc -w --skipLibCheck"
+    "dev": "nodemon index.ts"
   },
   "keywords": [
     "Developer",
@@ -18,7 +18,8 @@
   "dependencies": {
     "discord": "^0.8.2",
     "discord.js": "^13.6.0",
-    "dotenv": "^16.0.0"
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
   },
   "devDependencies": {
     "typescript": "^4.6.2"
