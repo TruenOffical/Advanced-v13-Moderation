@@ -33,6 +33,24 @@ client.on('ready', () => {
         name:"ping",
         description:"Pong olarak reply atar"
     })
+    commands?.create({
+        name:"add",
+        description:"adds two numbers",
+        options: [
+            {
+                name:"num1",
+                description:"The first number",
+                required: true,
+                type:DiscordJS.Constants.ApplicationCommandOptionTypes.NUMBER
+            },
+            {
+                name:"num2",
+                description:"The second number",
+                required: true,
+                type:DiscordJS.Constants.ApplicationCommandOptionTypes.NUMBER
+            }
+        ]
+    })
     //Global
 })
 client.on("interactionCreate", async (interaction) => {
