@@ -1,0 +1,26 @@
+{
+  "name": "ixmedia",
+  "version": "0.0.1",
+  "description": "IX Media Tarafından Kodlanmış Public Bot Altyapısıdır",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "tsc":"tsc -w --skipLibCheck"
+  },
+  "keywords": [
+    "Developer",
+    "developing",
+    "ix",
+    "media"
+  ],
+  "author": "Truen",
+  "license": "MIT",
+  "dependencies": {
+    "discord": "^0.8.2",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
+}
